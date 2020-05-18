@@ -1,7 +1,7 @@
 <slave>
   <name>Slave3</name>
   <description></description>
-  <remoteFS>/root/project</remoteFS>
+  <remoteFS>/home/centos/project</remoteFS>
   <numExecutors>5</numExecutors>
   <mode>NORMAL</mode>
   <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
