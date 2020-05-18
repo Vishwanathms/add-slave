@@ -1,7 +1,7 @@
 <slave>
   <name>Slave 1</name>
   <description></description>
-  <remoteFS>/home/jenkins</remoteFS>
+  <remoteFS>/root/project</remoteFS>
   <numExecutors>5</numExecutors>
   <mode>NORMAL</mode>
   <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
@@ -14,5 +14,5 @@
   </launcher>
   <label>slave</label>
   <nodeProperties/>
-  <userId>jeff@mymiller.name</userId>
+  <userId>user2</userId>
 </slave>
