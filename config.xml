@@ -1,18 +1,18 @@
 <slave>
-  <name>Slave 1</name>
+  <name>Slave3</name>
   <description></description>
   <remoteFS>/root/project</remoteFS>
   <numExecutors>5</numExecutors>
   <mode>NORMAL</mode>
   <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
   <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@1.10">
-    <host>54.236.235.64</host>
+    <host>100.24.71.8</host>
     <port>22</port>
     <credentialsId>81e14899-819c-48cb-a8e2-b9fe2587fdfc</credentialsId>
     <maxNumRetries>0</maxNumRetries>
     <retryWaitTime>0</retryWaitTime>
   </launcher>
-  <label>slave</label>
+  <label>slave3</label>
   <nodeProperties/>
   <userId>user2</userId>
 </slave>
